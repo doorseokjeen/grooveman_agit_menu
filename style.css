@@ -286,8 +286,8 @@ a{
 
 .red-grid{
   display: grid;
-  grid-template-columns:30% 40% 2fr;
-  grid-template-rows:15% 75% 2fr;
+  grid-template-columns:30% 40% 30%;
+  grid-template-rows:15% 70% 15%;
   width: 100%;
   height: 100%;
 }
