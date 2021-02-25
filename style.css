@@ -253,7 +253,7 @@ a{
 }
 .des_p{
   font-weight: 400;
-  padding-top: 1vh;
+  padding-top: 0.5rem;
   font-size: 0.6rem;
   line-height: 160%;
 }
@@ -292,7 +292,7 @@ a{
   height: 100%;
 }
 .winenumber{
-   letter-spacing: 0.02rem;
+  letter-spacing: 0.02rem;
   font-size: 1.5rem;
   padding-top: 0.5rem;
   padding-left: 0.5rem;
