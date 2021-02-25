@@ -252,6 +252,7 @@ a{
   line-height: 140%;
 }
 .des_p{
+  font-weight: 400;
   padding-top: 1vh;
   font-size: 0.6rem;
   line-height: 160%;
