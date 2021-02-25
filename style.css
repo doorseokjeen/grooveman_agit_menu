@@ -1,7 +1,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html,body{
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   font-size: 16px;
   background-color: black;
 }
@@ -12,10 +12,12 @@ body{
   font-family: 'Roboto Condensed', 'Gothic A1';
   font-weight: 700;
   letter-spacing: 0.02rem;
+  position: fixed;
+  overflow: hidden;
 }
 .menupage{
   
-  height: 100vh;
+  height: 100%;
   background-color: black;
   display: flex;
   flex-dirction: row;
@@ -23,8 +25,8 @@ body{
   -webkit-tap-highlight-color: white;
 }
 .menu{
-  height: 50vh;
-  width: 50vw;
+  height: 50%;
+  width: 50%;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   text-align: right;
@@ -46,8 +48,8 @@ body{
   padding-bottom: 0.3em;
 }
 .menu2{
-  height: 50vh;
-  width: 50vw;
+  height: 50%;
+  width: 50%;
   border-right: 1px solid white;
   text-align: right;
   display: flex;
@@ -57,8 +59,8 @@ body{
   padding-bottom: 0.3em;
 }
 .menu3{
-  height: 50vh;
-  width: 50vw;
+  height: 50%;
+  width: 50%;
   text-align: right;
   display: flex;
   justify-content: flex-end;
@@ -75,7 +77,7 @@ a{
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
 }
 #balbi_description{
   border-right: 1px solid black;
@@ -85,7 +87,7 @@ a{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #balbi_description.show{
@@ -100,7 +102,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #soraighe_description.show{
@@ -115,7 +117,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #la_description.show{
@@ -129,7 +131,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #delia_description.show{
@@ -144,7 +146,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 
@@ -160,7 +162,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #caruso_description.show{
@@ -175,7 +177,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #embellie_description.show{
@@ -190,7 +192,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #fruity_description.show{
@@ -205,7 +207,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #dry_description.show{
@@ -220,7 +222,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #pinot_description.show{
@@ -235,7 +237,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #brut_description.show{
@@ -250,7 +252,7 @@ a{
   padding-top: 2.3rem;
   padding-left: 8px;
   width: 66.6vw;
-  height: 26.7vh;
+  height: 26.7%;
   opacity: 0%;
 }
 #caliera_description.show{
@@ -273,7 +275,7 @@ a{
 .redname{
   font-size:0.9rem;
   width: 33.3vw;
-  height:26.7vh;
+  height:26.7%;
   background-color: white;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
@@ -413,7 +415,7 @@ a{
 #redwinemenu{
   color: black;
   background-color: white;
-  height: 80vh;
+  height: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -425,13 +427,13 @@ a{
   transition: max-height 0.7s;
 }
 #redwinemenu.open{
-  max-height: 80vh;
+  max-height: 80%;
   -webkit-transition: max-height 0.7s;
   -moz-transition: max-height 0.7s;
   transition: max-height 0.7s;
 }
 #red{
-  height: 25vh;
+  height: 25%;
   border-bottom: 1px solid white;
   display: flex;
   justify-content:center;
@@ -448,25 +450,25 @@ a{
 #whitewinemenu{
   color: black;
   background-color: white;
-  height: 80vh;
+  height: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 
-  max-height: 0vh;
+  max-height: 0%;
   overflow: hidden;
   -webkit-transition: max-height 0.7s;
   -moz-transition: max-height 0.7s;
   transition: max-height 0.7s;
 }
 #whitewinemenu.open{
-  max-height: 80vh;
+  max-height: 80%;
   -webkit-transition: max-height 0.7s;
   -moz-transition: max-height 0.7s;
   transition: max-height 0.7s;
 }
 #white{
-  height: 25vh;
+  height: 25%;
   border-bottom: 1px solid white;
   display: flex;
   justify-content:center;
@@ -475,7 +477,7 @@ a{
 }
 
 #white.open{
-  height: 5vh;
+  height: 5%;
   transition: height 0.7s;
   border-top: 1px solid white;
   border-bottom: none;
@@ -484,7 +486,7 @@ a{
 #champangemenu{
   color: black;
   background-color: white;
-  height: 80vh;
+  height: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -496,13 +498,13 @@ a{
   transition: max-height 0.7s;
 }
 #champangemenu.open{
-  max-height: 80vh;
+  max-height: 80%;
   -webkit-transition: max-height 0.7s;
   -moz-transition: max-height 0.7s;
   transition: max-height 0.7s;
 }
 #champange{
-  height: 25vh;
+  height: 25%;
   border-bottom: 1px solid white;
   display: flex;
   justify-content:center;
@@ -511,7 +513,7 @@ a{
 }
 
 #champange.open{
-  height: 5vh;
+  height: 5%;
   transition: height 0.7s;
   border-top: 1px solid white;
   border-bottom: none;
@@ -520,7 +522,7 @@ a{
 #moscatomenu{
   color: black;
   background-color: white;
-  height: 80vh;
+  height: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -532,13 +534,13 @@ a{
   transition: max-height 0.7s;
 }
 #moscatomenu.open{
-  max-height: 80vh;
+  max-height: 80%;
   -webkit-transition: max-height 0.7s;
   -moz-transition: max-height 0.7s;
   transition: max-height 0.7s;
 }
 #moscato{
-  height: 25vh;
+  height: 25%;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -546,14 +548,14 @@ a{
 }
 
 #moscato.open{
-  height: 5vh;
+  height: 5%;
   transition: height 0.7s;
   border-top: 1px solid white;
 }
 
 .wad_menu{
   font-size: 1rem;
-  width:100vw;
+  width:100%;
   display:flex;
   flex-direction: column;
 }
@@ -562,7 +564,7 @@ a{
   display: grid;
   grid-template-columns:50% 1fr;
   grid-template-rows:50% 1fr;
-  height: 12.5vh;
+  height: 12.5%;
   border-bottom: 1px solid white;
 }
 
