@@ -330,7 +330,6 @@ a{
   display: flex;
   align-items: center;
   padding-left: 0.5rem;
-  padding-bottom: 0.5rem;
   letter-spacing: 0.02rem;
 }
 .price{
@@ -339,7 +338,6 @@ a{
   align-items: center;
   justify-content: flex-end;
   padding-right: 0.5rem;
-  padding-bottom: 0.5rem;
   letter-spacing: 0.02rem;
 }
 
