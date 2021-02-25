@@ -12,8 +12,8 @@ body{
   font-family: 'Roboto Condensed', 'Gothic A1';
   font-weight: 700;
   position: fixed;
+  overflow: hidden;
   letter-spacing: 0.02rem;
-  position: fixed;
 }
 .menupage{
   height: 100vh;
