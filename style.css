@@ -95,6 +95,8 @@ a{
   border-right: 1px solid black;
   width: 66.6%;
   height: 33.4%;
+  font-size: 0.4rem;
+  font-weight: 400;
 }
 #balbi_description{
   background-color: white;
@@ -342,7 +344,7 @@ a{
 }
 
 .en_wine_position{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 115%;
   padding-left: 0.5rem;
   padding-top: 0.4rem;
