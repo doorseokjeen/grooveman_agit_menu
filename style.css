@@ -262,6 +262,7 @@ a{
 }
 .des_p{
   padding-top: 1vh;
+  word-break: keep-all;
   font-size: 0.6rem;
   font-weight: 400;
   line-height: 160%;
