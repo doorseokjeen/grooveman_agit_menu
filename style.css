@@ -338,7 +338,7 @@ a{
   padding-top: 0.4rem;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 }
 #en_balbi{
   opacity: 0%;
